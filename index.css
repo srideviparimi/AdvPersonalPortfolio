@@ -1,0 +1,196 @@
+body{
+    font-family:  Arial, Helvetica, sans-serif;
+
+}
+.navbar{
+    width:100%;
+    height:10vh;
+    background-color: #ff4d6d;
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    top:0;
+    left:0;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 5vh;
+    position: relative;
+}
+
+.navbar a{
+    text-decoration: none;
+    color:rgb(245, 247, 247);
+    font-size:15px;
+    padding:5px 20px 5px 20px;
+}
+.navbar a:hover{
+  color: rgb(167, 171, 171);
+  transition: 200ms;
+  transform-style: smooth;
+  font-size: 16px;
+}
+.navbar-mobile{
+    display:none;
+}
+p{
+    color:rgb(46, 45, 45);
+    margin-top: 250px;
+    
+}
+.container{
+    background-color:black; 
+    width:100%;
+    height:max-content; 
+}
+.sections{
+    position :relative;
+    overflow: visible;
+   
+}
+#tsparticles1{
+    width:100%;
+    height:100%;
+    position: absolute;
+    color:aqua;
+    margin-left: 0;
+}
+#tsparticles2{
+    width: 100%;
+    height:100%;
+    position: absolute;
+    color:aqua;
+    margin-left: 0;
+}
+.carousel-item h2{
+    color:#ffffff;
+}
+
+.skill{
+    background-color: #ff4d6d;
+    width:30%;
+    margin: 4% 4% 4% 4%;
+    padding: 2%;
+    border-radius: 20px;
+   
+    
+}
+.skill:hover{
+    cursor: pointer;
+    scale: 1.05;
+}
+#animatedDiv{
+    background-color: rgb(46, 45, 45);
+    color: white;
+    min-width: 20%;
+    max-height: 450px;
+    margin-top: 40px;
+    background-image: linear-gradient(to bottom left,#ff4d6d,rgb(46, 45, 45));
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding:2rem;
+}
+#animatedDiv img{
+    height:40%;
+    padding:1%;
+    overflow:hidden;
+}
+.card{
+    margin:2rem;
+    width: 22rem; 
+    max-height:26rem;
+}
+#moreProjects{
+    width:20%;
+    height:fit-content;
+    padding:1rem;
+    color:white;
+    background-color:#ff4d6d ;
+    border:none;
+}
+#moreProjects a{
+    text-decoration: none;
+    color:white;
+}
+.projectsTitle{
+    color:white;
+    margin-top: 2rem;
+}
+#experienceDiv{
+    width:100%;
+    height:fit-content;
+    background-color: rgb(46, 45, 45);
+    color:white;
+    margin-top:2rem;
+    
+}
+@keyframes fade-in{
+    from {scale:0.7;opacity:0;}
+    to {scale:1;opacity:1}
+}
+.card{
+    animation:fade-in linear;
+    animation-timeline: view();
+    animation-range-end: 150px;;
+}
+.card-text{
+    color:black;
+   
+}
+.jobTitle{
+margin: 20% 0 20% 0;
+background-color: #ff4d6d;
+color:white
+}
+
+#contactMe h2{
+    text-align: center;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 6%;
+}
+.contactme{
+  background-color: rgb(46, 45, 45);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display:flex;
+  width: 90%;
+  margin: 5% ;
+  text-align: left;
+}
+.contactPart{
+    width:40%;
+    background-color: #ff4d6d;
+    color:white;
+    margin-left: 0%;
+    padding:-10%;
+}
+.contactPart #githubLink{
+    text-decoration: none;
+    color:white;
+}
+.contactPart #githubLink:hover{
+    color:antiquewhite;
+}
+.formpart{
+    padding:2%;
+    width:60%;
+    align-items: center;
+ display:flex;
+ justify-content: center;
+}
+.formpart input{
+    width:80vh;
+    height:5vh;
+}
+#message{
+    height:20vh;
+}
+#submit{
+    background-color: #ff4d6d;
+    color:white;
+    border:none;
+}
+#submit :hover{
+    
+    cursor:pointer;
+}
+

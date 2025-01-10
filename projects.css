@@ -1,0 +1,75 @@
+body{
+    background-color: black;
+    color:white;
+    text-align: center;
+    font-family:  Arial, Helvetica, sans-serif;
+}
+@keyframes fade-in{
+    from {scale:0.7;opacity:0;}
+    to {scale:1;opacity:1}
+}
+.card{
+    animation:fade-in linear;
+    animation-timeline: view();
+    animation-range-end: 150px;
+    margin:5% 0 5% 0;
+    
+}
+
+.rowDiv{
+    display:flex; 
+    width:80%; 
+    height:250px ;
+    background-image: linear-gradient(to bottom left,#ff4d6d,rgb(46, 45, 45)); 
+    margin: 0 10% 0 10% ;
+}
+.imgCol{
+    width:30% ;
+    height:100%;
+    margin-left:3%;
+    margin-right: 3%;
+}
+.imgCol img{
+    width:80%;
+    height:80%;
+    border-radius: 100px;
+    margin:10% 0 10% 0;
+}
+.bodyCol{
+    width:70%; 
+    margin-right:3%;
+    margin-left: 3%;
+}
+.bodyCol a:hover{
+    cursor: pointer;
+    scale:1.05;
+    transition: ease 500ms;
+}
+#backBtn a{
+    text-decoration: none;
+    color:white;
+    background-color: #ff4d6d;
+    padding:1%;
+    
+}
+#backBtn:hover{
+    opacity:1;
+    cursor:pointer;
+}
+/** responsive design*/
+@media  screen and (max-width:800px){
+    .rowDiv{
+        display:block;
+        height: fit-content;
+        padding:3%;
+    }
+    .imgCol{
+        width:0;
+        height:0;
+    }
+    .bodyCol{
+        height: 50%;
+       margin-right: 3%;
+        width:97%;
+    }
+}

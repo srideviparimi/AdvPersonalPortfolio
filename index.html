@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sridevi Parimi Portfolio</title>
+    <link href="index.css"rel="stylesheet">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body style="background-color: black;">
+    
+    <!--for desktop-->
+        <nav class="navbar md navbar-expand-md  ">
+          <div class="container-fluid">
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 .justify-content-end">
+                <li class="nav-item">
+                  <a class="nav-link " aria-current="page" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">Skills and Education</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#projects">Projects</a>
+                </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#experience">Experience</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contactMe">Contact Me</a>
+              </li>
+           
+            </ul>
+            </div>
+          </div>
+        </nav>
+     <!--home section start-->
+        <section class="container text-center sections" id="home" style="margin-top: 12vh;">
+            <div id="tsparticles1" class="particles"> </div>
+            <div class="row mb-5">
+                <div class="col-md-4" style="border-radius: 20px; background-color:#1e1e1f">
+                    <img src="/pictures/hero-picture.png" class="img-fluid w-75 h-auto p-4" >
+                </div>
+                <div class="col-md card w-75 p-2 rounded-3" style="background-color:#1e1e1f; color:white; " >
+                    <div class="card-body" >
+                        <h3 class="card-title">Hello I am Sridevi Parimi</h3>
+                        <p class="card-text" style=" color:white">A remarkable academic record with reliable customer service
+                            experience for five years .Possesses solid knowledge of HTML, CSS,
+                            JavaScript and React with ability to quickly learn new technologies.<br><br>
+                            <button type="button" class="btn btn-outline-light" ><a href="SRIDEVI_PARIMI_Resume.pdf" download style="color:#ff4d6d"><i class="fa-solid fa-download"></i> Download Resume</a></button>
+                        </p>
+                    </div>
+                </div>
+                    
+            </div> 
+        </section>
+        <!--home section ends-->
+        <!--about section starts-->
+       
+        <section class="container text-center sections" id="about">
+            <div id="tsparticles2" class="particles"></div>
+            <div id="aboutSection" class="carousel slide" data-bs-ride="carousel">
+                <ul class="carousel-indicators">
+                    <li data-bs-target="#aboutSection" data-bs-slide-to="0" class="active"></li>
+                    <li data-bs-target="#aboutSection" data-bs-slide-to="1"></li>
+                </ul>
+
+                <div class="carousel-inner">
+                    <!--this is where the skills div starts-->
+                    <div class="carousel-item active">
+                            <div class="d-flex justify-content-center align-items-center mb-1" style="height: 450px; background-color: #1e1e1f;">
+                                <div class="carousel-caption d-block">
+                                  <h2>Skills</h2><br>
+                                  <div class="container text-center" style="background-color: #1e1e1f;" >
+                                    <div class="row">
+                                        <div class="skill col"> <i class="fa-brands fa-html5"></i><br><span>HTML5</span></div>
+                                        <div class="skill col"> <i class="fa-brands fa-css3"></i><br>CSS3</div>
+                                        <div class="skill col"><i class="fa-brands fa-bootstrap"></i><br>BootStrap</div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="skill col"> <i class="fa-brands fa-js"></i><br><span>JavaScript</span></div>
+                                        <div class="skill col"> <i class="fa-brands fa-react"></i><br>React JS</div>
+                                        <div class="skill col"> <i class="fa-brands fa-git-alt"></i><br>Git</div>    
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                    <!--this is where the education carousel starts-->
+                    <div class="carousel-item">
+                        <div class="d-flex justify-content-center align-items-center mb-1 p-4" style="height: 450px; background-color: #1e1e1f;">
+                            <div class="carousel-caption d-block">
+                              <h2>Education</h2>
+                              <div class="accordion" id="accordionExample">
+                                <!--each accordion item start-->
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="background-color:  #ff4d6d; color:#f8f8f7 ">
+                                        <strong>Master of Professional Accounting and Master of Business Administration</strong>
+                                    </button>
+                                  </h2>
+                                  <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body" style="background-color: #1e1e1f; color: #ecf0f1">
+                                      <strong>Holmes Institute,Sydney</strong><br>
+                                      2020-2021<br> 
+                                      GPA-5.4
+                                    </div>
+                                  </div>
+                                </div>
+                                 <!--each accordion item start-->
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" style="background-color: #ff4d6d; color:#f8f8f7">
+                                        <strong>Bachelor of Technology(Electronics and Communication Engineering)</strong>
+                                    </button>
+                                  </h2>
+                                  <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body" style="background-color: #1e1e1f; color: #ecf0f1">
+                                      <strong>Jawaharlal Nehru Technological University, Hyderabad, India</strong> <br>
+                                      2014-2018 <br>
+                                      Percentage-80%
+                                    </div>
+                                  </div>
+                                </div>
+                                 <!--each accordion item start-->
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" style="background-color: #ff4d6d; color:#f8f8f7">
+                                       <strong>Undergraduation</strong> 
+                                    </button>
+                                  </h2>
+                                  <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body"style="background-color: #1e1e1f; color: #ecf0f1">
+                                      <strong>Sree Narayana Junior College</strong> <br>
+                                      2012-2014<br>
+                                       Percentage-96%
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#aboutSection" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#aboutSection" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </section>
+
+        <!--project section starts-->
+        <section class="container text-center sections" id="projects">
+          <div id="tsparticles1" class="particles"> </div>
+          <h2 class="projectsTitle">Projects</h2>
+          <div id="animatedDiv"> 
+            <!--first card--> 
+            <div class="card" >
+              <img src="./pictures/rebel.png" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Rebel Website UI</h5>
+                <p class="card-text">This is a simple replica of the UI of the rebel website home page using only HTML and CSS.   </p>
+                <a class="btn btn-primary" onclick="rebelDemo()"style="color:white;border:none;background-color:#ff4d6d ">
+                Demo</a>  
+              </div>
+            </div>
+            <!--second card-->
+            <div class="card" >
+              <img src="./pictures/news-app.png" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">News Fetching Application</h5>
+                <p class="card-text">The news application is used to fetch news from News API using HTML, CSS and JavaScript.</p>
+                <a class="btn btn-primary" onclick="newsDemo()"
+                    style="color:white;border:none;background-color:#ff4d6d ">
+                  Demo
+                </a>
+              </div>
+            </div>
+            
+          <div class="card" id="moreProjects">
+            <a  href="projects.html">more</a>
+          </div>
+
+       </div>
+          
+        </section>
+        <section class="container text-center sections" id="experience">
+          <h2 class="projectsTitle">Experience</h2>
+          <div id="experienceDiv" style="padding : 1% 0 1% 0;">
+
+            <div class="card mb-3 " style="width: 92%;padding:1% ; background-color: rgb(249, 237, 237);">
+              <div class="row g-0">
+                <div class="col-md-3" style="background-color: #ff4d6d;">
+                  <div class="jobTitle" ><h2 > Retail Team Member</h2></div>
+                </div>
+                <div class="col-md-9">
+                  <div class="card-body">
+                    <h5 class="card-title">Rebel</h5>
+                    <p class="card-text"><small class="text-body-secondary">May 2022-December 2024</small></p>
+                    <p class="card-text">Demonstrated adaptability by working across various departments as
+                      needed, showcasing versatility in retail skills and knowledge.
+                  Ensured high level of customer satisfaction with efficient problem
+                      solving when handling returns or exchanges.
+                  Improved store''s overall operational efficiency by taking initiative in
+                      identifying areas for improvement and suggesting actionable solutions</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          
+            <div class="card mb-3 " style="width: 92%;padding:1%; background-color: rgb(249, 237, 237)">
+              <div class="row g-0">
+                
+                <div class="col-md-9">
+                  <div class="card-body">
+                    <h5 class="card-title">Zambrero</h5>
+                    <p class="card-text"><small class="text-body-secondary">Feb 2022 - May 2022</small></p>
+                    <p class="card-text">Food preparation and monitoring
+                      Following food safety and work place safety procedures
+                      Kept work areas clean, organized, and safe to promote efficiency and team safety</p>
+                  </div>
+                </div>
+                <div class="col-md-3" style="background-color: #ff4d6d;">
+                  <div class="jobTitle" ><h2 > Team Member</h2></div>
+                </div>
+              </div>
+            </div>
+             
+            <div class="card mb-3 " style="width: 92%;padding:1%; background-color: rgb(249, 237, 237)">
+              <div class="row g-0">
+                <div class="col-md-3" style="background-color: #ff4d6d;">
+                  <div class="jobTitle" ><h2 >Customer Service Representative</h2></div>
+                </div>
+            
+                <div class="col-md-9">
+                  <div class="card-body">
+                    <h5 class="card-title">Sunrise Fresh Fruits and Vegetables</h5>
+                    <p class="card-text"><small class="text-body-secondary">November 2020-November 2021</small></p>
+                    <p class="card-text">Experience in working with CRM
+                      Hands-on Experience with POS machines
+                      Stocked merchandise, clearly label items, and arranging according to size or color.
+                      Maintain financial accounts and process orders</p>
+                  </div>
+                </div>
+              
+              </div>
+            </div>
+             
+            <div class="card mb-3" style="width: 92%;padding:1% ; background-color: rgb(249, 237, 237);">
+              <div class="row g-0">
+                
+                <div class="col-md-9">
+                  <div class="card-body">
+                    <h5 class="card-title">McDonalds</h5>
+                    <p class="card-text"><small class="text-body-secondary">September 2019-March 2020</small></p>
+                    <p class="card-text">Worked at front counter, drive-thru and other areas.
+                      Took orders, prepared meals, and collected payments.</p>
+                  </div>
+                </div>
+                <div class="col-md-3" style="background-color: #ff4d6d;">
+                  <div class="jobTitle" ><h2 > Crew Member</h2></div>
+                </div>
+
+              </div>
+            </div> 
+
+          </div>
+        </section>
+        <section class="container text-center sections" id="contactMe">
+          <div id="tsparticles3" class="particles"></div>
+          <h2>Lets work together</h2>
+          
+          <div class="contactme" >
+
+            <div class="contactPart">
+              <pre>
+  
+  
+  
+  
+  
+        <i class="fa-solid fa-envelope"></i>   parimisridevi586@gmail.com
+    
+    
+        <i class="fa-solid fa-phone"></i>   +61 466778956
+    
+    
+        <i class="fa-brands fa-github"></i>  <a href="https://github.com/srideviparimi" id="githubLink">https://github.com/srideviparimi</a>
+    
+            
+            
+            
+                           </pre> 
+  
+            </div>
+            <div class="formpart">
+              <form action="https://api.web3forms.com/submit" method="POST" id="contactform">
+                  <input type="hidden" name="access_key" value="704c7c90-d8b1-41eb-a584-e7e2f3341ebb">
+                  <input type="text" id="fname" name="fname" placeholder="First Name" required><br><br>
+                  <input type="text" id="lname" name="lname" placeholder="Last Name" required><br><br>
+                  <input type="email" id="email" name="email" placeholder="Email" required><br><br> 
+                  <textarea id="message" name="message" rows="4" cols="58" placeholder="Message"></textarea><br><br>
+                  <input type="submit" id="submit" value="Submit">
+                </form>
+          </div>  
+        
+          </div>
+        </section>
+<script src="https://cdn.jsdelivr.net/npm/tsparticles@1.16.2/dist/tsparticles.min.js" integrity="sha256-2Sly/Hf9UP7YBu6LEPpn/6rxMZR5EeGq89mBa4G5+YA=" crossorigin="anonymous"></script>
+<script src="index.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@tsparticles/preset-fireworks@3/tsparticles.preset.fireworks.bundle.min.js"></script>
+    </body>
+</html>
