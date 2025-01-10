@@ -1,3 +1,9 @@
+const newDemo=()=>{
+    window.open("https://srideviparimi-adv-personal-portfolio.netlify.app/","_blank");
+}
+const newGit=()=>{
+    window.open("https://github.com/srideviparimi/AdvPersonalPortfolio","_blank");
+}
 const rebelDemo=()=>{
     window.open("https://srideviparimi.github.io/Rebel/","_blank")
 }
