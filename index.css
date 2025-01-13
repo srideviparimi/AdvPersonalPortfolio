@@ -14,7 +14,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 5vh;
     position: relative;
-}
+}   
 .navbar a{
     text-decoration: none;
     color:rgb(245, 247, 247);
@@ -80,10 +80,10 @@ p{
     background-color: rgb(46, 45, 45);
     color: white;
     min-width: 20%;
-    max-height: 450px;
+    max-height: fit-content;
     margin-top: 40px;
     background-image: linear-gradient(to bottom left,#ff4d6d,rgb(46, 45, 45));
-    display:flex;
+    display:block;
     align-items: center;
     justify-content: center;
     padding:2rem;
@@ -93,11 +93,20 @@ p{
     padding:1%;
     overflow:hidden;
 }
+.projectsTitle{
+    color:white;
+    margin-top: 2rem;
+    
+}
+.projectsDiv{
+    display: flex;
+}
 .card{
     margin:2rem;
     width: 22rem; 
     max-height:26rem;
 }
+
 #moreProjects{
     width:20%;
     height:fit-content;
@@ -105,15 +114,14 @@ p{
     color:white;
     background-color:#ff4d6d ;
     border:none;
+    height: 10%;
+    margin-top:18%;;
 }
 #moreProjects a{
     text-decoration: none;
     color:white;
 }
-.projectsTitle{
-    color:white;
-    margin-top: 2rem;
-}
+
 #experienceDiv{
     width:100%;
     height:fit-content;
@@ -150,10 +158,16 @@ color:white
 .contactme{
   background-color: rgb(46, 45, 45);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  display:flex;
+  display:block;
   width: 90%;
   margin: 5% ;
   text-align: left;
+}
+.contact{
+    display:flex;
+}
+.contactmeHeading{
+    padding:2%;
 }
 .contactPart{
     width:40%;
@@ -175,6 +189,7 @@ color:white
     align-items: center;
  display:flex;
  justify-content: center;
+ border:1px solid #ff4d6d;
 }
 .formpart input{
     width:80vh;

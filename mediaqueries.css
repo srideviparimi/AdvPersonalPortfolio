@@ -1,8 +1,11 @@
 /** responsive design*/
 @media  screen and (max-width:800px) {
    #animatedDiv{
-    display:block;
+    
     max-height: fit-content;
+   }
+   .projectsDiv{
+ display:block;
    }
 .card{
     max-width: fit-content;
@@ -11,23 +14,39 @@
 #home .card{
     margin-top: 4%;
 }
+#home .col-md-3{
+    width:80%;
+    margin-left:10%;
+
+}
+#home .col-md{
+    width:90%;
+    margin:10%;
+}
 #moreProjects{
     margin: 0 40% 0 40% ;
+    width:fit-content;
     
 }
 .contactme{
     display:block;
 }
-
-   .contactPart{
-    width:100%;
-   }
-   .formpart{
-    width:100%;
-   }
-   .formpart input{
-    width:100%;
-    height:5vh;
+.contactmeHeading{
+    padding:5%;
+}
+.contactPart{
+width:100%;
+}
+.formpart{
+width:100%;
+border: none;
+}
+.formpart input{
+width:100%;
+height:5vh;
+}
+.contact{
+    display:block;
 }
 .formpart textarea{
     width:100%;
