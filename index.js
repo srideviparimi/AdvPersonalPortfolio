@@ -80,6 +80,9 @@ const rebelDemo=()=>{
 const newsDemo=()=>{
     window.open("https://news-fetching-application.netlify.app/","_blank")
 }
+const visionDemo=()=>{
+    window.open("https://vision-electronics.netlify.app/","_blank")
+}
 /*document.getElementById("moreProjects").addEventListener("click",()=>{
     console.log("clicked")
     window.location.href="projects.html";

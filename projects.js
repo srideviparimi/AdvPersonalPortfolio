@@ -4,11 +4,11 @@ const newDemo=()=>{
 const newGit=()=>{
     window.open("https://github.com/srideviparimi/AdvPersonalPortfolio","_blank");
 }
-const rebelDemo=()=>{
-    window.open("https://srideviparimi.github.io/Rebel/","_blank")
+const visionDemo=()=>{
+    window.open("https://vision-electronics.netlify.app/","_blank")
 }
-const rebelGit=()=>{
-    window.open("https://github.com/srideviparimi/Rebel","_blank");
+const visionGit=()=>{
+    window.open("https://github.com/srideviparimi/electronics-store-vision","_blank");
 }
 const newsDemo=()=>{
     window.open("https://news-fetching-application.netlify.app/","_blank")
